@@ -1,0 +1,136 @@
+///////////////////////////////////////
+// Universal Styles
+
+:root {
+  --color--primary: #2c2f33;
+  --color--primary-dark: #272934;
+  --color--primary-light: #3d3f49;
+  --color--discord: #7289da;
+  --color--white: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--color--primary-dark);
+}
+
+///////////////////////////////////////
+// Main Header
+
+.main-header {
+  margin: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &__nav {
+  }
+
+  &__ul {
+    display: flex;
+
+    li {
+      margin: 0rem 1rem;
+      list-style: none;
+      font-size: 0.9rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--color--white);
+    }
+  }
+
+  &__ul-cta {
+    border-radius: 95vh;
+    padding: 0.5rem 1.5rem;
+    background-color: #7289da;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    width: 1.8rem;
+  }
+
+  &__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: 600;
+    color: var(--color--white);
+  }
+}
+
+///////////////////////////////////////
+// Hero
+
+.hero-logo {
+  text-align: center;
+
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+
+  &__img {
+    width: 10%;
+  }
+}
+
+.hero-cta-main {
+  text-align: center;
+  color: var(--color--white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-right: 32%;
+  margin-left: 32%;
+}
+
+.hero-cta-para {
+  text-align: center;
+  color: var(--color--white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+.hero-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.5rem;
+  &__main {
+    margin: 0rem 1rem;
+    a {
+      text-decoration: none;
+      background-color: var(--color--discord);
+      padding: 1rem 5rem;
+      color: white;
+    }
+  }
+
+  &__sub {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1rem;
+    a {
+      background-color: var(--color--primary-light);
+      color: white;
+      padding: 1rem 4rem;
+      text-decoration: none;
+    }
+  }
+
+  &__svg {
+    width: 2rem;
+  }
+}
