@@ -1,0 +1,112 @@
+///////////////////////////////////////
+// Featurs
+
+// @media (max-width: 650px) {
+//   .main-header {
+//     margin: 1rem 1rem;
+//     &__ul {
+//       display: none;
+//     }
+
+//     &__svg {
+//       width: 4rem;
+//       display: flex;
+//     }
+//   }
+
+//   .hero-logo {
+//     margin: 3rem;
+//     &__img {
+//       width: 5rem;
+//     }
+//   }
+
+//   .hero-cta-main {
+//     font-size: 1rem;
+//     margin: 1rem 1rem;
+//   }
+
+//   .hero-cta-para {
+//     font-size: 0.9rem;
+//     margin: 1rem 1rem;
+//   }
+
+//   .hero-btn-container {
+//     margin: 1rem;
+//     font-size: 0.9rem;
+
+//     a {
+//       padding: 0.7rem;
+//     }
+//   }
+
+//   .hero-btn-container-sub {
+//     margin: 1rem;
+//   }
+
+//   .hero-stats {
+//     font-size: 0.8rem;
+//   }
+// }
+
+@media (max-width: 768px) {
+  .hero-cta-main {
+    font-size: 1rem;
+    margin: 1rem 1rem;
+  }
+
+  .hero-cta-para {
+    font-size: 0.9rem;
+    margin: 1rem 1rem;
+  }
+}
+
+//////////////////////////////////
+// Smallest Phone Resolution
+@media (max-width: 360px) {
+  .main-header {
+    margin: 1rem 1rem;
+    &__ul {
+      display: none;
+    }
+
+    &__svg {
+      width: 4rem;
+      display: flex;
+    }
+  }
+
+  .hero-logo {
+    margin: 4rem;
+    &__img {
+      width: 5rem;
+    }
+  }
+
+  .hero-cta-main {
+    font-size: 1rem;
+    margin: 1rem 1rem;
+  }
+
+  .hero-cta-para {
+    font-size: 0.9rem;
+    margin: 1rem 1rem;
+  }
+
+  .hero-btn-container {
+    margin: 1rem;
+    font-size: 0.7rem;
+
+    a {
+      padding: 0.6rem;
+    }
+  }
+
+  .hero-btn-container-sub {
+    margin: 0rem;
+  }
+
+  .hero-stats {
+    font-size: 0.7rem;
+  }
+}
